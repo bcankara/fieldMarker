@@ -5,7 +5,7 @@ Microsoft Word'deki alanları (TOC, çapraz referanslar vb.) tek tıklamayla ren
 
 ## Hızlı Kurulum
 
-⬇️ **[Setup.zip'i indirmek için tıklayın](./Setup.zip)**
+⬇️ **[Setup.zip'i indirmek için tıklayın](https://github.com/bcankara/fieldMarker/Setup.zip)**
 
 ### Installation
 
