@@ -1,4 +1,5 @@
 # Field Marker for Microsoft Word 
+![Marker Animation](./images/marker.gif)
 
 Microsoft Word'deki alanları (TOC, çapraz referanslar vb.) tek tıklamayla renklendirebilen bir VSTO eklentisi.
 
