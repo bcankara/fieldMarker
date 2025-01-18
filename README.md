@@ -142,8 +142,8 @@ MIT License
 ## Author
 
 - **Burak Can KARA**
-- GitHub: [github.com/bcankara](https://github.com/bcankara)
-- Email: burakcankara@outlook.com
+- Web: [bcankara.com](https://bcankara.com)
+- Email: burakcankara@gmail.com
 
 ## Repository
 
