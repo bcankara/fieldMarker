@@ -3,6 +3,31 @@
 
 Microsoft Word'deki alanları (TOC, çapraz referanslar vb.) tek tıklamayla renklendirebilen bir VSTO eklentisi.
 
+## Hızlı Kurulum
+
+⬇️ **[Setup.zip'i indirmek için tıklayın](./Setup.zip)**
+
+### Installation
+
+1. Download the Setup.zip file from the latest release
+2. Extract the Setup.zip file
+3. Run the ReferencedMarker.vsto file
+4. If prompted about the publisher, click "Install"
+5. Wait for the installation to complete
+6. Restart Microsoft Word
+
+### Kurulum
+
+1. Son sürümdeki Setup.zip dosyasını indirin
+2. Setup.zip dosyasını çıkartın
+3. ReferencedMarker.vsto dosyasını çalıştırın
+4. Yayıncı ile ilgili bir uyarı gelirse "Yükle"ye tıklayın
+5. Kurulumun tamamlanmasını bekleyin
+6. Microsoft Word'ü yeniden başlatın
+
+Not: Kurulum sırasında sorun yaşarsanız, VSTO Runtime'ın yüklü olduğundan emin olun. Microsoft web sitesinden indirebilirsiniz.
+
+
 [English](#english) | [Türkçe](#türkçe)
 
 ## English
