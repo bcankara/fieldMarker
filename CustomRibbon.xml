@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns" label="Field Marker">
+        <group id="ContentGroup" label="Content">
+          <button id="btnInfo" 
+                  label="Info" 
+                  size="large"
+                  getImage="GetInfoImage"
+                  onAction="OnInfoButtonClick" />
+          <splitButton id="splitBtnColor" size="large">
+            <button id="btnColor" 
+                    label="Color"
+                    getImage="GetColorPickerImage"
+                    onAction="OnColorButtonClick" />
+            <menu id="menuColors" itemSize="large">
+              <button id="btnNoColor" 
+                      label="No Color"
+                      getImage="GetNoColorImage"
+                      onAction="OnColorSelected" />
+              <button id="btnYellow" 
+                      label="Yellow"
+                      getImage="GetYellowImage"
+                      onAction="OnColorSelected" />
+              <button id="btnGreen" 
+                      label="Green"
+                      getImage="GetGreenImage"
+                      onAction="OnColorSelected" />
+              <button id="btnTurquoise" 
+                      label="Turquoise"
+                      getImage="GetTurquoiseImage"
+                      onAction="OnColorSelected" />
+              <button id="btnPink" 
+                      label="Pink"
+                      getImage="GetPinkImage"
+                      onAction="OnColorSelected" />
+              <button id="btnRed" 
+                      label="Red"
+                      getImage="GetRedImage"
+                      onAction="OnColorSelected" />
+              <button id="btnBlue" 
+                      label="Blue"
+                      getImage="GetBlueImage"
+                      onAction="OnColorSelected" />
+              <button id="btnDarkBlue" 
+                      label="Dark Blue"
+                      getImage="GetDarkBlueImage"
+                      onAction="OnColorSelected" />
+              <button id="btnTeal" 
+                      label="Teal"
+                      getImage="GetTealImage"
+                      onAction="OnColorSelected" />
+              <button id="btnGray" 
+                      label="Gray"
+                      getImage="GetGrayImage"
+                      onAction="OnColorSelected" />
+            </menu>
+          </splitButton>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI> 
