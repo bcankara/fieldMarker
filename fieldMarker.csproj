@@ -204,6 +204,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="fieldMarker_TemporaryKey.pfx" />
+    <None Include="fieldMarker.cer" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -237,7 +238,7 @@
     <ManifestKeyFile>fieldMarker_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>B5A1ABAB08D68BBF4E512419B635E992DCB5B946</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>4D34AB66C7011B1A4B3340FC95BF592EE24E55D9</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -95,7 +95,7 @@ namespace fieldMarker
         public void OnInfoButtonClick(Office.IRibbonControl control)
         {
             var result = MessageBox.Show(
-                "Developer: Burak Can KARA\nEmail: burakcankara@outlook.com\nGitHub: github.com/bcankara\n\nClick OK to visit GitHub profile",
+                "Developer: Burak Can KARA\nEmail: burakcankara@gmail.com\nGitHub: github.com/bcankara\n\nClick OK to visit GitHub profile",
                 "Field Marker Add-In",
                 MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Information);

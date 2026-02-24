@@ -11,19 +11,21 @@ Microsoft Word'deki alanları (TOC, çapraz referanslar vb.) tek tıklamayla ren
 
 1. Download the Setup.zip file from the latest release
 2. Extract the Setup.zip file
-3. Run the ReferencedMarker.vsto file
-4. If prompted about the publisher, click "Install"
-5. Wait for the installation to complete
-6. Restart Microsoft Word
+3. (Optional) Install `fieldMarker.cer` certificate to **Trusted Publishers** store for trusted deployment
+4. Run the ReferencedMarker.vsto file
+5. If prompted about the publisher, click "Install"
+6. Wait for the installation to complete
+7. Restart Microsoft Word
 
 ### Kurulum
 
 1. Son sürümdeki Setup.zip dosyasını indirin
 2. Setup.zip dosyasını çıkartın
-3. ReferencedMarker.vsto dosyasını çalıştırın
-4. Yayıncı ile ilgili bir uyarı gelirse "Yükle"ye tıklayın
-5. Kurulumun tamamlanmasını bekleyin
-6. Microsoft Word'ü yeniden başlatın
+3. (İsteğe bağlı) `fieldMarker.cer` sertifikasını **Güvenilen Yayımcılar** deposuna yükleyin
+4. ReferencedMarker.vsto dosyasını çalıştırın
+5. Yayıncı ile ilgili bir uyarı gelirse "Yükle"ye tıklayın
+6. Kurulumun tamamlanmasını bekleyin
+7. Microsoft Word'ü yeniden başlatın
 
 Not: Kurulum sırasında sorun yaşarsanız, VSTO Runtime'ın yüklü olduğundan emin olun. Microsoft web sitesinden indirebilirsiniz.
 
@@ -60,10 +62,11 @@ Not: Kurulum sırasında sorun yaşarsanız, VSTO Runtime'ın yüklü olduğunda
 
 1. Download the Setup.zip file from the latest release
 2. Extract the Setup.zip file
-3. Run the ReferencedMarker.vsto file
-4. If prompted about the publisher, click "Install"
-5. Wait for the installation to complete
-6. Restart Microsoft Word
+3. (Optional) Install `fieldMarker.cer` certificate to **Trusted Publishers** store for trusted deployment
+4. Run the ReferencedMarker.vsto file
+5. If prompted about the publisher, click "Install"
+6. Wait for the installation to complete
+7. Restart Microsoft Word
 
 Note: If you encounter any issues during installation, make sure you have the VSTO Runtime installed. You can download it from the Microsoft website.
 
@@ -105,10 +108,11 @@ Note: If you encounter any issues during installation, make sure you have the VS
 
 1. Son sürümdeki Setup.zip dosyasını indirin
 2. Setup.zip dosyasını çıkartın
-3. ReferencedMarker.vsto dosyasını çalıştırın
-4. Yayıncı ile ilgili bir uyarı gelirse "Yükle"ye tıklayın
-5. Kurulumun tamamlanmasını bekleyin
-6. Microsoft Word'ü yeniden başlatın
+3. (İsteğe bağlı) `fieldMarker.cer` sertifikasını **Güvenilen Yayımcılar** deposuna yükleyin
+4. ReferencedMarker.vsto dosyasını çalıştırın
+5. Yayıncı ile ilgili bir uyarı gelirse "Yükle"ye tıklayın
+6. Kurulumun tamamlanmasını bekleyin
+7. Microsoft Word'ü yeniden başlatın
 
 Not: Kurulum sırasında sorun yaşarsanız, VSTO Runtime'ın yüklü olduğundan emin olun. Microsoft web sitesinden indirebilirsiniz.
 
@@ -134,6 +138,8 @@ Not: Kurulum sırasında sorun yaşarsanız, VSTO Runtime'ın yüklü olduğunda
 - `CustomRibbon.xml`: Ribbon UI definition
 - `ThisAddIn.cs`: Add-in initialization
 - `Resources/`: Icons and images
+- `fieldMarker.cer`: Code signing certificate for trusted deployment
+- `fieldMarker_TemporaryKey.pfx`: PFX signing key
 
 ## License
 
